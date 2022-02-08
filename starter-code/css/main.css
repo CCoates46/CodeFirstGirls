@@ -1,6 +1,11 @@
 nav {
     background-color: #fff8dc;
-}
+    margin: 0;
+    }
+
+nav ul {
+        margin: 0px;
+        }
 
 header {
     height: 400px;
@@ -10,7 +15,9 @@ header {
 h1 {
     text-align: center;
     color: blue;
-    padding: 20%
+    padding: 12%;
+    margin: 0px;
+    ;
 }
 
 ul {
