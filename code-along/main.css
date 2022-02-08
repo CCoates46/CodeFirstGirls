@@ -1,0 +1,37 @@
+h1 {
+    color: #FF69B4;
+    font-family: "Architects Daughter"
+}
+
+h2 {
+    color: #5e1954;
+    font-size: 30px;
+    font-weight: lighter;
+    text-decoration: underline ;
+    font-family: "Architects Daughter";
+}
+
+ul {
+    font-family: "Architects Daughter";
+    font-size: 20px;
+    color: #5e1954
+}
+
+.box1 {
+    background-color: rgba(86, 216, 214, 0.879);
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2 {
+    background-color: rgba(201, 215, 216, 0.927);
+    border-color: blueviolet;
+    border-style: ridge;
+    border-width: 4px;
+    padding: 10px;
+    margin: 10px;
+
+}
