@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-    <htmsl>
+    <html>
         <head>
             <title>My Blog</title>
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" >
         </head>
-
         <body>
-            <header>
+            <header class="Container WrapChildren Gutters">
                 <nav>
                     <a href="pages/page2.html"> Go to page 2</a>
                 </nav>
-                <h1>FUN FACT 2! - I am now an official blogger</h1>
-                <img src="./img/Fun Fact logo.jpeg" alt="Fun Fact" width='200'>
+                <div>
+                    <h1>FUN FACT 2! - I am now an official blogger</h1>
+                </div>
+                <div class="Center TwoThirdColumn">
+                    <img src="./img/Fun Fact logo.jpeg" alt="Fun Fact" class="Image1">
+                </div>
             </header>
 
-            <main>
-                <article>
-                    <h2>It was all a Surprise!</h2>
+            <main class="Container">
+                <div class="TwoThirdColumn Gutters">
+                    <article class="Intro">
+                        <h2>It was all a Surprise!</h2>
 
-                        <p>About six months ago, I began my journey into learning Javascript, and I began to post on my LinkedIn account about my journey.</p>
+                            <p>About six months ago, I began my journey into learning Javascript, and I began to post on my LinkedIn account about my journey.</p>
                     
-                        <p>Very slowly my posts have begun to gain followers and one of my followers was the director of Digital Engineering here at Dunelm.<br>
-                       He was enjoying my posts and asked if I would write a post on Dunelm's very own Dunelm-Technology blog.</p>
+                            <p>Very slowly my posts have begun to gain followers and one of my followers was the director of Digital Engineering here at Dunelm.<br>
+                            He was enjoying my posts and asked if I would write a post on Dunelm's very own Dunelm-Technology blog.</p>
 
-                        <p>Today my post went live on the blog and it has received such a positive response.</p>
+                            <p>Today my post went live on the blog and it has received such a positive response.</p>
 
-                        <p>Here is a link to my post <a href="https://engineering.dunelm.com/fun-fact-1-i-started-my-career-licking-envelopes-42477bc9db19"target="blank">Fun Fact 1!</a></p>
-                </article>
+                            <p>Here is a link to my post <a href="https://engineering.dunelm.com/fun-fact-1-i-started-my-career-licking-envelopes-42477bc9db19"target="blank">Fun Fact 1!</a></p>
+                    </article>
+                </div>
 
-                <div>
-                    <img src="./img/woman programming emoji.jpeg" alt="woman programming emoji" width="100">
+                <div class="OneThirdColumn Gutters">
                     <h3>Programming languages studied so far</h3>
                         <ul>
                             <li>C#</li>
@@ -40,12 +46,13 @@
                             <li>Test Automation University - Test Cafe</li>
                             <li>Codecademy - Introduction to C#</li>
                             <li>Code First Girls - Introduction to Web Development</li>
-                        </ol>                                 
+                        </ol>   
+                    <img src="./img/woman programming emoji.jpeg" alt="woman programming emoji" width= 250px>                                                 
                 </div>
             </main>
         </body>
 
-        <footer>
+        <footer class="Container Gutters">
             <nav>
                 <a href="https://www.linkedin.com/in/clare-coates-a05833b5/"target="blank">LinkedIn Profile</a>
             </nav>

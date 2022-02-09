@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    max-width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TwoThirdColumn {
+    width: 66.666%;
+}
+
+.OneThirdColumn {
+    width: 33.333%;
+}
+
+.FullColumn {
+    width: 100%;
+}
+
+.WrapChildren {
+    flex-wrap: wrap;
+}
+
+.Gutters {
+    padding: 0 5px 0 5px;
+}
+
+.Left {
+    display: flex;
+    justify-content: left;
+}
+
+.Center {
+    display:flex; 
+    justify-content: center;
+}
+
+.Right {
+    display:flex;
+    justify-content: right;
+}
+
+body {
+    font-family: "Raleway";
+    font-size: 20px;
+    color: darkslategrey;
+    background-color:rgba(220, 232, 233, 0.493)
+    
+}
+
+h1 {
+
+    color: rgba(22, 44, 37, 0.753);
+    font-size: 50px;
+    border-style: double;
+    border-width: 20px;
+    background-color: rgba(93, 162, 168, 0.493);
+}
+
+
+.Intro {
+    font-size: 20px;
+}
+
+.Image1 {
+    width: 250px;
+    background-color: rgba(220, 232, 233, 0.493);
+}
+
+h3 {
+   
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+
