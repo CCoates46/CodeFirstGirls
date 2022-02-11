@@ -35,12 +35,12 @@
 }
 
 .Center {
-    display:flex; 
+    display: flex; 
     justify-content: center;
 }
 
 .Right {
-    display:flex;
+    display: flex;
     justify-content: right;
 }
 
