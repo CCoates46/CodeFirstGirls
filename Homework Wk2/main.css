@@ -21,6 +21,7 @@
 
 .FullColumn {
     width: 100%;
+    position: relative;
 }
 
 .WrapChildren {
@@ -55,7 +56,7 @@
 body {
     font-family: "Open Sans";
     background-color: black;
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
     
 }
@@ -72,10 +73,11 @@ body {
 .TitleTwo {
     font-size: 70px;
     color: pink;
+    flex-direction: row;
 }
 
 .TitleThree {
-    font-size: 20px;
+    font-size: 30px;
     justify-content: left;
     font-weight: bolder;
 }
@@ -87,4 +89,25 @@ body {
 
 .Paragraph1 {
     align-content: space-around;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.Position {
+    position:absolute;
+}
+
+.SpeechMarksOpen {
+    font-size: 50px;
+    color: rgba(228, 136, 214, 0.803);
+}
+
+.SpeechMarksClosed {
+    font-size:50px;
+    margin-left: 650px;
+    color: rgba(228, 136, 214, 0.803);
+}
+
+.footer {
+    padding-bottom: 10%;
 }

@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.Container {
+    max-width: 1500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SecondColumn {
+    width: 50%;
+
+}
+
+.FirstColumn {
+    width: 50%;
+}
+
+.FullColumn {
+    width: 100%;
+    position: relative;
+}
+
+.WrapChildren {
+    flex-wrap: wrap;
+}
+
+.Gutters {
+    padding: 0 5px 0 5px;
+}
+
+.Left {
+    display: flex;
+    justify-content: left;
+}
+
+.Center {
+    display: flex; 
+    justify-content: center;
+}
+
+.Right {
+    display: flex;
+    justify-content: right;
+}
+
+.Justify {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+body {
+    font-family: "Open Sans";
+    background-color: black;
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+
+.Image1 {
+    position: relative;
+}
+
+
+.TitleOne {
+    font-size: 70px;
+}
+
+.TitleTwo {
+    font-size: 70px;
+    color: pink;
+    flex-direction: row;
+}
+
+.TitleThree {
+    font-size: 30px;
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.TitleFour {
+    font-size: 25px;
+    justify-content: left;
+    color: grey;
+}
+
+.PicOne {
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.Paragraph1 {
+    align-content: space-around;
+    flex-direction: row;
+}
+
+.Position {
+    position:absolute;
+}
+
+.Paragraph2 {
+    align-content: space-around;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
